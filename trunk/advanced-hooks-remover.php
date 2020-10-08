@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Advanced Hooks Remover
  * Plugin URI: https://github.com/YordanSoares/advanced-hooks-remover
- * Description: Feature plugin that extends the `remove_filter()` and `remove action()` functions to allow for the removal of hooks within classes.
+ * Description: Feature plugin that extends the <code>remove_filter()</code> and <code>remove action()</code> functions to allow for the removal of hooks within classes.
  * Version: 1.0
  * Author: Yordan Soares
  * Author URI: https://yordansoar.es/
