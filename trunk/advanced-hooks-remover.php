@@ -17,7 +17,7 @@
 // Die if accessed directly
 defined('ABSPATH') or die(__('You can not access this file directly!', 'advanced-hooks-remover'));
 
-function desactivar_accion_desde_clase($tag, $class = '', $method, $priority = null): bool {
+function advanced_hooks_remover($tag, $class = '', $method, $priority = null): bool {
   global $wp_filter;
 
   if (isset($wp_filter[$tag])) {

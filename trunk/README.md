@@ -21,21 +21,21 @@ Feature plugin that extends the `remove_filter()` and `remove action()` function
 Exact match:
 ```
 add_action('plugins_loaded', function() {
-    remove_class_action('plugins_loaded', 'MyClass', 'my_action', 0);
+    advanced_hooks_remover('plugins_loaded', 'MyClass', 'my_action', 0);
 });
 ```
 
 Any priority:
 ```
 add_action('plugins_loaded', function() {
-    remove_class_action('plugins_loaded', 'MyClass', 'my_action');
+    advanced_hooks_remover('plugins_loaded', 'MyClass', 'my_action');
 });
 ```
 
 Any class and any priority:
 ```
 add_action('plugins_loaded', function() {
-    remove_class_action('plugins_loaded', '', 'my_action');
+    advanced_hooks_remover('plugins_loaded', '', 'my_action');
 });
 ```
 
